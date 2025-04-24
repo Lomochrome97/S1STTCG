@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study1 Static</title>
   <style>
 
@@ -207,6 +208,45 @@
 
     .reserve-btn:hover {
       background-color: #005fa3;
+    }
+
+    @media (max-width: 768px) {
+      .hotel {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .slider-container {
+        width: 100%;
+        height: auto;
+      }
+
+      .image-slider {
+        height: 200px;
+      }
+
+      .info-container {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .info-center,
+      .info-right {
+        width: 100%;
+        height: auto;
+      }
+
+      .reserve-btn {
+        width: 100%;
+      }
+
+      .price-box {
+        text-align: left;
+      }
+
+      .rating-box {
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
